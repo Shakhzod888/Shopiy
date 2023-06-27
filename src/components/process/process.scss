@@ -1,0 +1,107 @@
+.processPage {
+  width: 100%;
+  height: 100vh;
+  background: #0e0e2c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .ourAbility {
+    .whatWeDo {
+      background: var(--secondary-shade-1, #172656);
+      color: var(--secondary, #3a86ff);
+      width: 160px;
+      text-align: center;
+      padding: 4px;
+      font-size: 14px;
+      font-family: sans-serif;
+      line-height: 180%;
+      letter-spacing: 1.05px;
+    }
+
+    h3 {
+      color: var(--white, #fff);
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding-top: 30px;
+      font-size: 35px;
+      font-family: sans-serif;
+      font-weight: 700;
+      line-height: 130%;
+    }
+
+    .asOutMotto {
+      color: var(--white-shade-1, #868695);
+      font-size: 16px;
+      font-family: sans-serif;
+      position: relative;
+      top: 40px;
+      line-height: 35px;
+    }
+  }
+
+  .process {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: 200px 200px;
+    gap: 60px;
+    padding: 10px;
+    row-gap: 60px;
+    column-gap: 100px;
+  }
+
+  .active {
+    border-radius: 10px;
+    background: #1a1a3d;
+  }
+  .processes {
+    padding: 20px;
+    font-size: 30px;
+
+    .process_1 {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      padding: 10px;
+      background: var(--primary-shade-1, #3e3125);
+    }
+    .process_2 {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      padding: 10px;
+      background: var(--primary-shade-1, #172656);
+    }
+    .process_3 {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      border-radius: 10px;
+      background: var(--accent-1-shade, #3e0b39);
+    }
+    .process_4 {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      border-radius: 10px;
+      background: var(--accent-2-shade, #3d1c25);
+    }
+
+    .growYourTraffic {
+      color: var(--white, #fff);
+      font-size: 19px;
+      font-family: sans-serif;
+      font-weight: 700;
+      padding-top: 15px;
+      line-height: 130%;
+    }
+
+    .text {
+      font-size: 10px;
+      color: var(--white-shade-1, #868695);
+      font-size: 11px;
+      font-family: sans-serif;
+      line-height: 180%;
+    }
+  }
+}
